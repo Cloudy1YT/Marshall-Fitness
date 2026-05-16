@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gym Schedules - Marshall Fitness </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            <img src="images/fitness-logo.jpg" alt="Marshall Fitness Logo" class="logo-pic">
+            <h1>Marshall Fitness</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About Us </a></li>
+                    <li><a href="registration.html">Membership</a></li>
+                    <li><a href="schedule.html" class="active">Gym Hub</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main> 
+            <section class="content-section">
+                <h2> Daily Workout Schedules</h2>
+                <p>Now that we've told you about everything else our gym has to offer, lets go over what your instructor options would look like if you were to join our family! You can rotate between one of these four workout options over a daily schedule: </p>
+                <button id='load-classes-button'>View Our Workout Options:</button>
+                
+                <div id='schedule-container' class="class-schedule"> </div>  
+            </section>
+
+            <section class="content-section">
+                <h2>Workout of the Day Generator</h2>
+             <p>Not sure which workout you wanna do? Let us pick a training workout for you to do, designed by Coach Marshall himself!</p>
+    
+             <button id="workout-button">Generate My Workout</button>
+            <p id="work-display"></p>
+            </section>
+              <section class="staff-section">
+                <h2> Expert Comments </h2>
+                <div class="our-staff">
+                    <div class="staff-card">
+                    <img src="images/buff-marshall.jpg" alt="A buff picture of me">
+                    <h2>Lead Coach Marshall</h2>
+                    <p> ~ "Nothing gets the blood flowing like some light car lifting!" </p>
+                    </div>
+                      <div class="staff-card">
+                         <h3>Instructor Chris</h3>
+                         <p> ~ "Get that stamina up! Who's gonna carry all the logs and the boats?!" </p>
+                     <img src="images/buff-guy-1.jpg" alt="Instructor chris pic">
+                     </div>
+                      <div class="staff-card">
+                         <h3>Instructor Daunte</h3>
+                         <p> ~ "Get your vert up so you can dunk like me!"</p>
+                           <img src="images/buff-guy-2.jpg" alt="Instructor daunte pic">
+                     </div>
+                        <div class="staff-card">
+                         <h3>Instructor Mimose</h3>
+                         <p> ~ "Watching what you eat after a workout is important!"</p>
+                     <img src="images/buff-women-1.jpg" alt="Instructor mimose pic">
+                     </div>
+                </div>
+
+                
+            </section>
+
+
+        </main>
+       <footer> 
+        <p>&copy; 2026 Marshall Fitness. All rights reserved. </p>
+    </footer>
+
+    <script src="java.js"></script>
+    </body>
+    
+</html>
