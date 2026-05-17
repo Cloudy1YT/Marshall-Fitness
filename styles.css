@@ -211,10 +211,10 @@ form {
 
 
 
-/* Dynamic Interactive Hover Effect */
+
 .program-card:hover {
-    transform: translateY(-8px);    /* Lifts the card slightly off the screen on mouseover */
-    box-shadow: 0 10px 20px rgba(11, 37, 69, 0.15); /* Deepens the shadow to emphasize depth */
+    transform: translateY(-8px);    
+    box-shadow: 0 10px 20px rgba(11, 37, 69, 0.15); 
 }
 
 
